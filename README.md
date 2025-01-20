@@ -25,7 +25,12 @@ Simplify Logs App is a tool designed to process log files and create concise sum
 3. **Microsoft.Extensions.AI Package**  
    Add the NuGet package for Microsoft.Extensions.AI using the following command:
    ```bash
-   dotnet add package Microsoft.Extensions.AI
+   dotnet add package Microsoft.Extensions.AI --version 9.1.0-preview.1.25064.3
+   ```
+4. **Microsoft.Extensions.AI Ollama Package**  
+   Add the NuGet package for Microsoft.Extensions.AI.Ollama using the following command:
+   ```bash
+   dotnet add package Microsoft.Extensions.AI.Ollama --version 9.1.0-preview.1.25064.3
    ```
 
 ---
